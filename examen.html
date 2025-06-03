@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecánica Automotriz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            background-image: url('mecanica-fondo.jpg'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #ff9800;
+            text-align: center;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            display: inline-block;
+            background: #ff9800;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: #e68900;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Listas */
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            background: #ff9800;
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        /* Imágenes */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Botones */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #e68900;
+        }
+
+        /* Pie de página */
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mecánica Automotriz</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#areas">Áreas Principales</a>
+        <a href="#consejos">Consejos</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#faq">Preguntas Frecuentes</a>
+    </nav>
+   
+    <div class="container">
+        <h2 id="introduccion">Introducción</h2>
+        <li>La mecánica automotriz es la disciplina encargada del mantenimiento, reparación y optimización de los vehículos.
+        La mecánica automotriz es la rama de la ingeniería y la tecnología que se encarga del estudio, mantenimiento, reparación y optimización de los vehículos motorizados. Su importancia radica en garantizar la seguridad, eficiencia y rendimiento de los automóviles, evitando fallos mecánicos y mejorando la experiencia de conducción.</li>
+        <h2>Horario de Atención</h2>
+        <ul>
+            <li>Lunes a Viernes: 8:00 AM - 6:00 PM</li>
+            <li>Sábado: 9:00 AM - 2:00 PM</li>
+            <li>Domingo: Cerrado</li>
+            <li>correo de atencion:luis.cabrera.aguilar232007@gmail.com</li>
+            <li>numero de antencion a quilientes :2454507464</li>
+        </ul>
+
+        <h2>Contáctanos</h2>
+<form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+<button onclick="topFunction()" id="btnTop" title="Ir arriba">↑</button>
+<script>
+  const btn = document.getElementById("btnTop");
+  window.onscroll = () => btn.style.display = window.scrollY > 300 ? "block" : "none";
+  function topFunction() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+</script>
+<style>
+  #btnTop {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999;
+  }
+</style>
+
+    
+        <h2 id="areas">Áreas Principales</h2>
+        <ul>
+            <li><strong>Motor:</strong> Requiere mantenimiento regular.</li>
+            <senter><div class="image-container"><img src="macanicaaa.png" alt="Motor"></div></senter>
+            <li><strong>Transmisión:</strong> Transfiere potencia a las ruedas.</li>
+            <senter><div class="image-container"><img src="manicc.png" alt="Transmisión"></div></senter>
+            <li><strong>Sistema Eléctrico:</strong> Batería, alternador y más.</li>
+            <senter><div class="image-container"><img src="mecanic.png" alt="Sistema Eléctrico"></div></senter>
+            <li><strong>Sistema de Frenos:</strong>Es fundamental para la seguridad del vehículo.</li>
+            <senter><div class="image-container"><img src="mecanicautomotris.png" alt="Frenos de disco y de tambor"></div></senter>
+        </ul>
+        <h2>Trabajos Realizados</h2>
+<div class="image-gallery">
+    <img src="mecaut.png" alt="Cambio de frenos">
+    <img src="autmeca.png" alt="Afinación de motor">
+    <img src="autooo.png" alt="Sistema eléctrico reparado">
+</div>
+
+        <h2 id="consejos">Consejos de Mantenimiento</h2>
+        <ol>
+            <li>Revisar niveles de aceite y líquidos.</li>
+            <li>Verificar presión y desgaste de neumáticos.</li>
+            <li>Inspeccionar el sistema de frenos regularmente.</li>
+            <li>Revisar el sistema de refrigeración y niveles de anticongelante.</li>
+            <li>Cambiar el filtro de aire y bujías periódicamente.</li>
+        </ol>
+        
+        <h2 id="herramientas">Herramientas Básicas</h2>
+        <ul>
+            <li>Llave inglesa</li>
+            <li>Destornillador</li>
+            <li>Martillo</li>
+            <li>Juego de llaves de vaso</li>
+            <li>Manómetro para medir la presión de neumáticos</li>
+        </ul>
+        <h2 id="HERRAMIENTAS DE MEDICIÓN Y DIAGNÓSTICO">HERRAMIENTAS DE MEDICIÓN Y DIAGNÓSTICO</h2>
+        <ul>
+            <li>Multímetro </li>
+            <li>Lámpara de prueba </li>
+            <li>Calibrador o vernier.</li>
+            <li>Manómetro </li>
+            <li>Tacómetro </li>
+            <li>Escáner automotriz </li>
+        </ul>
+
+
+        <h2 id="faq">Preguntas Frecuentes</h2>
+        <h3>¿Cuándo cambiar el aceite del motor?</h3>
+        <p>Se recomienda cada 5,000 - 7,500 km o según el manual del fabricante.</p>
+        <h3>¿Cómo saber si los frenos necesitan cambio?</h3>
+        <p>Si escuchas chirridos o sientes vibraciones al frenar.</p>
+        
+        <h2>Recursos Adicionales</h2>
+        <p>Si deseas aprender más sobre mecánica automotriz, consulta los siguientes enlaces:</p>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Mec%C3%A1nica_automotriz" class="btn" target="_blank">Mecánica Básica</a></li>
+            <li><a href="https://www.autobild.es" class="btn" target="_blank">Noticias Automotrices</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=mecanica+automotriz" class="btn" target="_blank">Videos Educativos</a></li>
+            <li><a  href="https://www.lifeder.com/ramas-de-la-mecanica/"btn" target="_blank">ramas de la mecanica</a></li>
+        </ul>
+
+        <h2 id="#estudiar">institutos</h2>
+       <h1>¿Dónde Estudiar Mecánica Automotriz?</h1> 
+       <ol>
+       <li>Institutos de educación técnica y tecnológica.</li>
+       <li> Universidades con programas de ingeniería mecánica o automotriz.</li>
+       <li>Centros de formación profesional y programas de aprendizaje en empresas automotrices.</li>
+       </ol>
+       <footer>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d-122.41941568468122!3d37.77492927975806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1a6d7d1e07%3A0x8a2e1a2c1a1b4fbd!2sDirección%20Ejemplo!5e0!3m2!1ses!2sus!4v1610000000000!5m2!1ses!2sus" 
+  width="600" 
+  height="450" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
+<h2>Opiniones de Clientes</h2>
+<div class="testimonio">
+    <p>"Excelente servicio, mi auto quedó como nuevo!"</p>
+    <p><strong>- Juan Pérez</strong></p>
+</div>
+
+<img src="demon-motor.jpg" alt="300">
+   
+<button onclick="toggleFAQ()">¿Cada cuánto debo cambiar el aceite?</button>
+<div id="respuesta" style="display:none;">Cada 5,000 a 7,500 km, según el fabricante.</div>
+
+
+
+<script>
+function toggleFAQ() {
+  var x = document.getElementById("respuesta");
+  x.style.display = (x.style.display === "none") ? "block" : "none";
+}
+</script>
+
+<button2 onclick="toggleFAQ()"><button onclick="toggleFAQ()">¿Cuál es la presión correcta de los neumáticos?</button2>
+<div id="respuesta" style="display:none2;">La presión correcta de los neumáticos varía según el tipo y tamaño del vehículo, pero generalmente se encuentra entre 2.0 y 2.5 bares (29-36 PSI) para autos pequeños y familiares, y puede ser mayor para camionetas o vehículos comerciales</div></button>
+
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'es' }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="social-icons">
+    <a href="https://facebook.com/tu_pagina" target="_blank">📘</a>
+    <a href="https://instagram.com/tu_pagina" target="_blank">📸</a>
+    <a href="https://tiktok.com/@tu_pagina" target="_blank">🎵</a>
+  </div>
+  
+  
+
+        <p>&copy; 2025 Mecánica Automotriz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
